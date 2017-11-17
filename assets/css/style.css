@@ -25,3 +25,16 @@
 	text-align: center;
 	
 }
+
+#banner {
+	background-color: #2F4F4F;
+	color: white;
+}
+
+#color {
+	background-color: green;
+}
+
+#color1 {
+	background-color:red;
+}
