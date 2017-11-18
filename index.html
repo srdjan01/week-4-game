@@ -4,71 +4,66 @@
 	<meta charset="utf-8">
 	<title>CrystalsCollector Game</title>
 
-	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
 </head>
 <body>
-	
-	<div class="container">
+  <!--Bootstratap containers-->
+  <div class="container">
   	<div class="jumbotron text-center" id="banner">
-    <h1>Crystal Collector !</h1>      
+      <h1>Crystal Collector !</h1>      
     </div>
-  	</div>
+  </div>
 
-   	<div class="container">
+  <div class="container">
   	<div class="well well-lg">
-  	<p><b>Instructions:</b></p>
-  	<p>You will be given a random number at start of the game</p>
-  	<p>There are four chrystals bellow. By clicking on the chrystal you will add a specific amount of the points to your total score</p>
-  	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
-  	<p>The value of each crystal is hidden from you until you click on it</p>
-  	<p>Each time when the game starts, the game will change the values of each crystal</p>
+     <p><b>Instructions:</b></p>
+     <p>You will be given a random number at start of the game</p>
+     <p>There are four chrystals bellow. By clicking on the chrystal you will add a specific amount of the points to your total score</p>
+     <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
+     <p>The value of each crystal is hidden from you until you click on it</p>
+     <p>Each time when the game starts, the game will change the values of each crystal</p>
 
-  	</div>
-  	</div>
+   </div>
+ </div>
 
-  	<div class = "container">
-  	<div class="well well-lg">GENERATED NUMBER
-  	<div class="row">
-    <div class="col-sm-6" id="color">
-    	<h1 id = "randomNumber">0</h1>
-    </div>
-    <div class="col-sm-6" id="color1">
-    	<h4>WINS: <span id = "wins">0</span></h4>
-    	<h4>LOSSES: <span id = "losses">0</span></h4>
-    </div>
-  	</div>
-    </div>
-    <div class="well well-lg"><h1 id = "message"></h1></div>
-	</div>
-	<br>
-	
-	<div class="container">
-  	<div class="well well-lg" id="groupimages">
-    <button class="fa fa-connectdevelop fa-5x" aria-hidden="true" id="develop"></button>
-    <button class="fa fa-empire fa-5x" aria-hidden="true" id = "empire"></button>
-    <button class="fa fa-codepen fa-5x" aria-hidden="true" id="codepen"></button>
-    <button class="fa fa-first-order fa-5x" aria-hidden="true" id="order"></button>
-  	</div>
-	</div>
-	
-	<div class = "container">
-    <h3>Your score is: </h3>
-  	<div class="well well-lg">
-  		<h1 id = "yourScore">0</h1>
-  	</div>
-  	</div>
-	
+ <div class = "container">
+   <div class="well well-lg">GENERATED NUMBER
+     <div class="row">
+      <div class="col-sm-6" id="color">
+       <h1 id = "randomNumber">0</h1>
+     </div>
+     <div class="col-sm-6" id="color1">
+       <h4>WINS: <span id = "wins">0</span></h4>
+       <h4>LOSSES: <span id = "losses">0</span></h4>
+     </div>
+   </div>
+ </div>
+ <div class="panel panel-default"><h1 id = "message"></h1></div>
+</div>
+<br>
+<!-- Container with buttoons and images-->
+<div class="container">
+ <div class="well well-lg" id="groupimages">
+  <button class="fa fa-connectdevelop fa-5x" aria-hidden="true" id="develop"></button>
+  <button class="fa fa-empire fa-5x" aria-hidden="true" id = "empire"></button>
+  <button class="fa fa-codepen fa-5x" aria-hidden="true" id="codepen"></button>
+  <button class="fa fa-first-order fa-5x" aria-hidden="true" id="order"></button>
+</div>
+</div>
+<!--Bootstrap container-->
+<div class = "container">
+  <h3>Your score is: </h3>
+  <div class="well well-lg">
+    <h1 id = "yourScore">0</h1>
+  </div>
+</div>
 
-
-
-
-	<script src="assets/javascript/game.js"></script>
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>
